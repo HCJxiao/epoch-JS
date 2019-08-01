@@ -126,7 +126,7 @@ html {
     background-color: #fff;
 }
 .sixbox {
-    height: 35rem;
+    height: 30rem;
     background-color: rgb(242, 242, 242);
 }
 .sixone {
@@ -159,8 +159,8 @@ html {
     width: 100%;
     background-color:#fff;
     height: 3.5rem;
-    margin-top: 1rem;
-    /* position: fixed; */
-    z-index: 99999;
+    bottom: 82px;
+    position: fixed;
+    z-index: 999;
     display: flex;
 }

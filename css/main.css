@@ -707,10 +707,7 @@ td {
 .guize:hover {
     background-color: #fff;
 }
-.guize:hover .guizehide{
-    display: block;
-    z-index: 666; 
-}
+
 .guizehide {
     height: 55px;
     position: relative;
@@ -722,7 +719,10 @@ td {
     border-bottom: 0.4px dashed #ededed;
     background-color: #fff;
 }
-
+.guize:hover .guizehide{
+    display: block;
+    z-index: 666; 
+}
 .t3down-line {
     width: 40px;
     font-size: 9px;
