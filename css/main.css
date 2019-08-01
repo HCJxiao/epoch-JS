@@ -704,6 +704,13 @@ td {
 .gonggao {
     background-color: #fff;
 }
+.guize {
+    width: 40px;
+    font-size: 9px;
+    border-right: 0.4px solid #ededed;
+    text-align: center;
+    padding: 10px 5px;
+}
 .guize:hover {
     background-color: #fff;
 }
@@ -730,13 +737,7 @@ td {
     text-align: center;
     padding: 10px 5px;
 }
-.guize {
-    width: 40px;
-    font-size: 9px;
-    border-right: 0.4px solid #ededed;
-    text-align: center;
-    padding: 10px 5px;
-}
+
 
 
 .t3down-two {
