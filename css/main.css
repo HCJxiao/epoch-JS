@@ -1243,7 +1243,12 @@ td {
     height: 237px;
     width: 170px;
     background-color: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
 }
+/* .fir1:hover {
+    border: 1px solid rgb(255, 96, 0);
+} */
 .fir1>div>a>img {
     width: 170px;
     height: 170px;
@@ -1253,7 +1258,7 @@ td {
     height: 76px;
 }
 .fir1-pic:hover {
-    transition-duration: 1s;
+    transition: all 0.5s;
     transform: scale(1.05,1.05);
 }
 .fir1-down:hover .fd-hide {
