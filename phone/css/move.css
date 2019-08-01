@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 12px;
+}
+.pic1 {
+    width: 100vw;
+    height: 3rem;
+}
+.pic2 {
+    width: 10rem;
+    height: 1.8rem;
+    padding: 6px 12px;
+}
+.pic3 {
+    height: 1rem;
+    width: 12.5rem;
+    padding: 12px 12px;
+}
+.ssbox {
+    width: 100vw;
+    padding: 0.8rem 0.5rem;
+    background-color: #fff;
+    /* position: fixed;
+    z-index: 99989; */
+}
+.ss {
+    height: 2.6rem;
+    width: 21rem;
+    background-color: #ececec;
+    border-radius: 5px;
+    margin-left: 0.5rem;   
+}
+.pic4 {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+}
+.ss>div {
+    color: #93959a;
+    margin-left: 3rem;
+    margin-top: -1.6rem;
+    
+}
+.denglu {
+    width: 3rem;
+    margin-left: 22rem;
+    border: 1px solid #ff6000;
+    text-align: center;
+    color: #ff6000;
+    border-radius: 5px;
+    padding: 0.25rem 0.3rem;
+    margin-top: -2.3rem;
+}
+.pic5 {
+    width: 100vw;
+    height: 12rem;
+    margin-top: 0.8rem;
+    z-index: 1;
+}
+/* .pic5-box {
+    margin-top: 0.8rem;
+    background-color: rgba(0,0,0,.3);
+    padding: 0.125rem 0.15rem;
+    z-index: 15;
+} */
+.ninebox {
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.nine-up {
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.pic6 {
+    height: 3rem;
+}
+.nine-down {
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.fourbox {
+    height: 16.5rem;
+    background-color: rgb(242, 242, 242);
+    padding: 0.5rem  0;
+    display: flex;
+}
+
+.fourbox-left {
+    width: 50%;
+    border-right: 0.5px solid #f2f2f2;
+    background-color: #fff;
+}
+.kuankuan {
+    background-image: url("https://gw.alicdn.com/tfs/TB18vNTGgmTBuNjy1XbXXaMrVXa-218-60.png");
+    background-size: 80px 50px;
+    font-size: 0.6rem;
+    padding: 3px 7px 3px 10px;
+    text-align: center;
+}
+.pic7 {
+    margin-left: 1rem;
+}
+.left-up {
+    border-bottom: 0.5px solid #f2f2f2;
+    padding-bottom: 0.8rem;
+}
+.left-down {
+    display: flex;
+    padding-top: 1rem;
+}
+.fourbox-right {
+    width: 50%;
+    background-color: #fff;
+}
+.fivebox {
+    height: 4rem;
+    line-height: 4rem;
+    background-color: #fff;
+}
+.sixbox {
+    height: 35rem;
+    background-color: rgb(242, 242, 242);
+}
+.sixone {
+    display: flex;
+    justify-content: space-between;
+}
+.sixone-left,
+.sixone-right {
+    width: 49.3%;
+    height: 20.15rem;
+    background-color: #fff;
+}
+.sevenbox,
+.eightbox,
+.ninebox,
+.tenbox,
+.elebox,
+.twebox,
+.thribox,
+.fourteenbox,
+.fiveteenbox,
+.sixteenbox,
+.sevteenbox,
+.eitteenbox,
+.nineteenbox,
+.tenteenbox {
+    margin-top: 0.4rem;
+}
+.nav {
+    width: 100%;
+    background-color:#fff;
+    height: 3.5rem;
+    margin-top: 1rem;
+    /* position: fixed; */
+    z-index: 99999;
+    display: flex;
+}
